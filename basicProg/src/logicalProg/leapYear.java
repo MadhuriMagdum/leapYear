@@ -47,11 +47,11 @@ public class leapYear {
 //			System.out.println(y + " is not a Leap Year.");
 
 		// 4 using method
-		findleap(y);
+		findLeapYear(y);
 
 	}
 
-	private static void findleap(int y) {
+	private static void findLeapYear(int y) {
 		if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0)
 			System.out.println("\n" + y + " is a Leap Year.");
 
